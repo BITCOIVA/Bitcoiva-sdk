@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authexported "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/exported"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authexported "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/exported"
 )
 
 // AccountKeeper defines the expected account keeper (noalias)

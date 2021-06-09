@@ -1,7 +1,7 @@
 package rootmulti
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 )
 
 var cdc = codec.New()

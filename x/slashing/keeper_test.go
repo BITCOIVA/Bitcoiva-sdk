@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/slashing/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/slashing/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking"
 )
 
 // Have to change these parameters for tests

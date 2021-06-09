@@ -9,10 +9,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
 
 	tmliteProxy "github.com/tendermint/tendermint/lite/proxy"
 )

@@ -6,8 +6,8 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // File for storing in-package BaseApp optional functions,

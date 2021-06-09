@@ -10,9 +10,9 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/hd"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/mintkey"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/hd"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/mintkey"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 func init() {

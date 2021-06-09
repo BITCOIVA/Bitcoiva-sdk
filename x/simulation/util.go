@@ -8,8 +8,8 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // assertAll asserts the all invariants against application state

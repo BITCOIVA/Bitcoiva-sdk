@@ -6,8 +6,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // Operation runs a state machine transition, and ensures the transition

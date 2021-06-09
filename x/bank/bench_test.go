@@ -6,13 +6,13 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/keeper"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/mock"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/keeper"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/mock"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply"
 )
 
 var moduleAccAddr = sdk.AccAddress([]byte("moduleAcc"))

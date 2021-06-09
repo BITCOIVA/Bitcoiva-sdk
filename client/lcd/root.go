@@ -14,14 +14,14 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	rpcserver "github.com/tendermint/tendermint/rpc/lib/server"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	keybase "github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	keybase "github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/osiz-blockchainapp/bitcoiva-sdk/client/lcd/statik"
+	_ "github.com/BITCOIVA/Bitcoiva-sdk/client/lcd/statik"
 )
 
 // RestServer represents the Light Client Rest server

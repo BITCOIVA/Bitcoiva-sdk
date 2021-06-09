@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/crisis"
-	distr "github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/crisis"
+	distr "github.com/BITCOIVA/Bitcoiva-sdk/x/distribution"
 )
 
 var (

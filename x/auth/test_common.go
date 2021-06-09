@@ -7,12 +7,12 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params/subspace"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params/subspace"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/exported"
 )
 
 type testInput struct {

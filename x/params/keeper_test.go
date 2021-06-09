@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/prefix"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/prefix"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 func TestKeeper(t *testing.T) {

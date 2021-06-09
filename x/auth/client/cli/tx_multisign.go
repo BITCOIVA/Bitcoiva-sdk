@@ -12,14 +12,14 @@ import (
 	"github.com/tendermint/tendermint/crypto/multisig"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	crkeys "github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/version"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/client/utils"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	crkeys "github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/version"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
 )
 
 // GetSignCommand returns the sign command

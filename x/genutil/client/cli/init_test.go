@@ -14,14 +14,14 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server/mock"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/module"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server/mock"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/module"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil"
 )
 
 var testMbm = module.NewBasicManager(genutil.AppModuleBasic{})

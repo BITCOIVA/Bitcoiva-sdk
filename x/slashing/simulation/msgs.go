@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/simulation"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/slashing"
+	"github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/simulation"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/slashing"
 )
 
 // SimulateMsgUnjail generates a MsgUnjail with random values

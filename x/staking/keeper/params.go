@@ -3,9 +3,9 @@ package keeper
 import (
 	"time"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 // Default parameter namespace

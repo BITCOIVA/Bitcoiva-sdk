@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/types"
-	stakingtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/types"
+	stakingtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 // Wrapper struct

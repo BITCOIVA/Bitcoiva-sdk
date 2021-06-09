@@ -1,8 +1,8 @@
 package v0_36
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	v034auth "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/legacy/v0_34"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types"
+	v034auth "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/legacy/v0_34"
 	"testing"
 
 	"github.com/stretchr/testify/require"

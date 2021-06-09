@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // Constants pertaining to a Content object

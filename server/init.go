@@ -3,10 +3,10 @@ package server
 import (
 	"fmt"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
 
-	clkeys "github.com/osiz-blockchainapp/bitcoiva-sdk/client/keys"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	clkeys "github.com/BITCOIVA/Bitcoiva-sdk/client/keys"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // GenerateCoinKey returns the address of a public key, along with the secret

@@ -5,10 +5,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/cachekv"
-	serrors "github.com/osiz-blockchainapp/bitcoiva-sdk/store/errors"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/tracekv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/cachekv"
+	serrors "github.com/BITCOIVA/Bitcoiva-sdk/store/errors"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/tracekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 
 	"github.com/pkg/errors"
 	"github.com/tendermint/iavl"

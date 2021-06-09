@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // QuerySigningInfoParams defines the params for the following queries:

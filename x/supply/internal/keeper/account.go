@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/exported"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/internal/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/internal/types"
 )
 
 // GetModuleAddress returns an address based on the module name

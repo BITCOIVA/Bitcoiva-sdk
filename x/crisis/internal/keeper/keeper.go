@@ -6,9 +6,9 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/crisis/internal/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/crisis/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
 )
 
 // Keeper - crisis keeper

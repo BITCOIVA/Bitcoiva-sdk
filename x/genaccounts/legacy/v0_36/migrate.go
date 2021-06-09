@@ -5,11 +5,11 @@ package v0_36
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	v034distr "github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/legacy/v0_34"
-	v034accounts "github.com/osiz-blockchainapp/bitcoiva-sdk/x/genaccounts/legacy/v0_34"
-	v034gov "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/legacy/v0_34"
-	v034staking "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/legacy/v0_34"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	v034distr "github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/legacy/v0_34"
+	v034accounts "github.com/BITCOIVA/Bitcoiva-sdk/x/genaccounts/legacy/v0_34"
+	v034gov "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/legacy/v0_34"
+	v034staking "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/legacy/v0_34"
 
 	"github.com/tendermint/tendermint/crypto"
 )

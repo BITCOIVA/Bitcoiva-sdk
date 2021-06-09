@@ -21,10 +21,10 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	pvm "github.com/tendermint/tendermint/privval"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server/config"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/version"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server/config"
+	"github.com/BITCOIVA/Bitcoiva-sdk/version"
 )
 
 // server context

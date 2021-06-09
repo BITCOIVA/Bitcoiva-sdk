@@ -6,9 +6,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/internal/types"
 )
 
 // RegisterRoutes registers staking-related REST handlers to a router

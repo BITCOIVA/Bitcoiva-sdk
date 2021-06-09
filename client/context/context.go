@@ -17,11 +17,11 @@ import (
 	tmliteProxy "github.com/tendermint/tendermint/lite/proxy"
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	cryptokeys "github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	cryptokeys "github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 var (

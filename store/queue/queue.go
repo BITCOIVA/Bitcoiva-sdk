@@ -3,10 +3,10 @@ package store
 // TODO: make it independent from list
 /*
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/list"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/list"
 )
 
 // Key for the top element position in the queue

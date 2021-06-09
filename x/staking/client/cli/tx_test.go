@@ -10,8 +10,8 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 func TestPrepareFlagsForTxCreateValidator(t *testing.T) {

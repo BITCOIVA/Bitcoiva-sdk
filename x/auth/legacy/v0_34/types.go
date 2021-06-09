@@ -3,7 +3,7 @@
 package v0_34
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 const (

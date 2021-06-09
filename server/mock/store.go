@@ -5,7 +5,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 var _ sdk.MultiStore = multiStore{}

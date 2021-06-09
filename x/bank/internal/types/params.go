@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
 )
 
 const (

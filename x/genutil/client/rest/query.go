@@ -3,10 +3,10 @@ package rest
 import (
 	"net/http"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil/types"
 )
 
 // QueryGenesisTxs writes the genesis transactions to the response if no error

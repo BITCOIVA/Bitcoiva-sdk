@@ -3,7 +3,7 @@ package keys
 import (
 	"testing"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/multisig"

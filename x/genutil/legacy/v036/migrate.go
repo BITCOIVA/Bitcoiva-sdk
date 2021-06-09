@@ -1,19 +1,19 @@
 package v036
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	v034auth "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/legacy/v0_34"
-	v036auth "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/legacy/v0_36"
-	v034distr "github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/legacy/v0_34"
-	v036distr "github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/legacy/v0_36"
-	v034genAccounts "github.com/osiz-blockchainapp/bitcoiva-sdk/x/genaccounts/legacy/v0_34"
-	v036genAccounts "github.com/osiz-blockchainapp/bitcoiva-sdk/x/genaccounts/legacy/v0_36"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil"
-	v034gov "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/legacy/v0_34"
-	v036gov "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/legacy/v0_36"
-	v034staking "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/legacy/v0_34"
-	v036staking "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/legacy/v0_36"
-	v036supply "github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/legacy/v0_36"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	v034auth "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/legacy/v0_34"
+	v036auth "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/legacy/v0_36"
+	v034distr "github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/legacy/v0_34"
+	v036distr "github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/legacy/v0_36"
+	v034genAccounts "github.com/BITCOIVA/Bitcoiva-sdk/x/genaccounts/legacy/v0_34"
+	v036genAccounts "github.com/BITCOIVA/Bitcoiva-sdk/x/genaccounts/legacy/v0_36"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil"
+	v034gov "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/legacy/v0_34"
+	v036gov "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/legacy/v0_36"
+	v034staking "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/legacy/v0_34"
+	v036staking "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/legacy/v0_36"
+	v036supply "github.com/BITCOIVA/Bitcoiva-sdk/x/supply/legacy/v0_36"
 )
 
 // Migrate migrates exported state from v0.34 to a v0.36 genesis state.

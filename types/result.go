@@ -7,7 +7,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 )

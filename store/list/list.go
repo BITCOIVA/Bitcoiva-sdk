@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 // Key for the length of the list

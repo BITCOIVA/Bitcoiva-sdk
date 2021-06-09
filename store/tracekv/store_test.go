@@ -10,10 +10,10 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/dbadapter"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/prefix"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/tracekv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/dbadapter"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/prefix"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/tracekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 func bz(s string) []byte { return []byte(s) }

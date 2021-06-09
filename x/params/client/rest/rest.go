@@ -3,14 +3,14 @@ package rest
 import (
 	"net/http"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/client/utils"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov"
-	govrest "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/client/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
-	paramscutils "github.com/osiz-blockchainapp/bitcoiva-sdk/x/params/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov"
+	govrest "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/client/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
+	paramscutils "github.com/BITCOIVA/Bitcoiva-sdk/x/params/client/utils"
 )
 
 // ProposalRESTHandler returns a ProposalRESTHandler that exposes the param

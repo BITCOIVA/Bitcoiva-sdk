@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/input"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/input"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
 
 	"github.com/spf13/cobra"
 )

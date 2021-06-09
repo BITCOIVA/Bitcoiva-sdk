@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	params "github.com/osiz-blockchainapp/bitcoiva-sdk/x/params/subspace"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	params "github.com/BITCOIVA/Bitcoiva-sdk/x/params/subspace"
 )
 
 // Parameter store key

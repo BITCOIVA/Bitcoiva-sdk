@@ -14,8 +14,8 @@ import (
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/rootmulti"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/rootmulti"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // GetNode returns an RPC client. If the context's client is not defined, an

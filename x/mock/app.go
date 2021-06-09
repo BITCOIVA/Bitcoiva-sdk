@@ -14,11 +14,11 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	bam "github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
+	bam "github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
 )
 
 const chainID = ""

@@ -6,7 +6,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client"
 )
 
 func TestValidateCmd(t *testing.T) {

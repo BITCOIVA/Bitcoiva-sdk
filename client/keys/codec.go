@@ -1,7 +1,7 @@
 package keys
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 )
 
 var cdc *codec.Codec

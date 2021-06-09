@@ -3,8 +3,8 @@ package keys
 import (
 	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/hd"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/hd"
 )
 
 var cdc *codec.Codec

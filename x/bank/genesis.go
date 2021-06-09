@@ -1,7 +1,7 @@
 package bank
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // GenesisState is the bank state that must be provided at genesis.

@@ -9,9 +9,9 @@ import (
 	cmn "github.com/tendermint/tendermint/libs/common"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/types"
 )
 
 func TestKeeper(t *testing.T) {

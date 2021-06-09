@@ -3,9 +3,9 @@ package transient
 import (
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/dbadapter"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/dbadapter"
 )
 
 var _ types.Committer = (*Store)(nil)

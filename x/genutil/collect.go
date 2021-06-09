@@ -15,12 +15,12 @@ import (
 	cfg "github.com/tendermint/tendermint/config"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authexported "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/exported"
-	authtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil/types"
-	stakingtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authexported "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/exported"
+	authtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil/types"
+	stakingtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 // GenAppStateFromConfig gets the genesis app state from the config

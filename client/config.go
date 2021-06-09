@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
 )
 
 const (

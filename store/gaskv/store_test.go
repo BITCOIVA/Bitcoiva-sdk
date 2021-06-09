@@ -6,9 +6,9 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/dbadapter"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/gaskv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/dbadapter"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/gaskv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 
 	"github.com/stretchr/testify/require"
 )

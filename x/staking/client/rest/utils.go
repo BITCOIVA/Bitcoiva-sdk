@@ -6,11 +6,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/client/utils"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 // contains checks if the a given query contains one of the tx types

@@ -13,8 +13,8 @@ import (
 
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 type MockLogger struct {

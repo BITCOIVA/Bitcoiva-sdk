@@ -1,6 +1,6 @@
 package types
 
-import "github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+import "github.com/BITCOIVA/Bitcoiva-sdk/codec"
 
 // Register the sdk message type
 func RegisterCodec(cdc *codec.Codec) {

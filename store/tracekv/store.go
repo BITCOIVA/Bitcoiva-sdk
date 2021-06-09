@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 const (

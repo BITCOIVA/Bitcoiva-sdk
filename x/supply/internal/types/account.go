@@ -7,9 +7,9 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/exported"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/exported"
 )
 
 var _ exported.ModuleAccountI = (*ModuleAccount)(nil)

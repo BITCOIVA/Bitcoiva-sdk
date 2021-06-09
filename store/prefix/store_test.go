@@ -4,11 +4,11 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/dbadapter"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/gaskv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/iavl"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/dbadapter"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/gaskv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/iavl"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 
 	"github.com/stretchr/testify/require"
 

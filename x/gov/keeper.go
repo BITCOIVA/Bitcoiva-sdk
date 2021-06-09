@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/exported"
 
 	"github.com/tendermint/tendermint/libs/log"
 )

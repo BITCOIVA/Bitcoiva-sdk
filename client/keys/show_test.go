@@ -10,10 +10,10 @@ import (
 	"github.com/tendermint/tendermint/crypto/multisig"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 func Test_multiSigKey_Properties(t *testing.T) {

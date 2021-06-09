@@ -8,9 +8,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/types"
 )
 
 func TestBalances(t *testing.T) {

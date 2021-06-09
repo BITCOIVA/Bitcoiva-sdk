@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests"
 )
 
 func Test_openDB(t *testing.T) {

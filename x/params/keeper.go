@@ -3,10 +3,10 @@ package params
 import (
 	"fmt"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params/subspace"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params/subspace"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params/types"
 
 	"github.com/tendermint/tendermint/libs/log"
 )

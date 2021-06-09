@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil"
 )
 
 var basic034Gov = []byte(`

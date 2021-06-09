@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov"
-	govsim "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/simulation"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/simulation"
+	"github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov"
+	govsim "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/simulation"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/simulation"
 )
 
 // SimulateMsgSetWithdrawAddress generates a MsgSetWithdrawAddress with random values.

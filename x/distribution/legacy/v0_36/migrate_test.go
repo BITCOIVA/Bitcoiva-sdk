@@ -1,8 +1,8 @@
 package v0_36
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	v034distr "github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/legacy/v0_34"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types"
+	v034distr "github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/legacy/v0_34"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	"testing"
 

@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
+import "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
 
 // NormalizeVoteOption - normalize user specified vote option
 func NormalizeVoteOption(option string) string {

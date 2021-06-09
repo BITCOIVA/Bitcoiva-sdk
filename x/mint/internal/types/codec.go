@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 )
 
 // generic sealed codec to be used throughout this module

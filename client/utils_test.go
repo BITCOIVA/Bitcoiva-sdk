@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client"
 )
 
 func TestPaginate(t *testing.T) {

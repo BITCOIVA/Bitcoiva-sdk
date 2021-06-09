@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

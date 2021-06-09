@@ -10,9 +10,9 @@ import (
 	cmn "github.com/tendermint/tendermint/libs/common"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/tracekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/tracekv"
 )
 
 // If value is nil but deleted is false, it means the parent doesn't have the

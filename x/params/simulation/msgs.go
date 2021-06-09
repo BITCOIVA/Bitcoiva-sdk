@@ -6,11 +6,11 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/simulation"
+	"github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/simulation"
 )
 
 type simParamChange struct {

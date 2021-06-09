@@ -9,20 +9,20 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	cmn "github.com/tendermint/tendermint/libs/common"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution"
-	distr "github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/mint"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/slashing"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution"
+	distr "github.com/BITCOIVA/Bitcoiva-sdk/x/distribution"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/mint"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/slashing"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 var (

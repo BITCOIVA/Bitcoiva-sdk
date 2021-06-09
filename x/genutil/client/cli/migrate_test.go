@@ -12,9 +12,9 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests"
 )
 
 func setupCmd(genesisTime string, chainId string) *cobra.Command {

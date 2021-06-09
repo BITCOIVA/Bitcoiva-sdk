@@ -5,9 +5,9 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/cachekv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/tracekv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/cachekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/tracekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 // Wrapper type for dbm.Db with implementation of KVStore

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/cachekv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/tracekv"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/cachekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/tracekv"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 var _ types.KVStore = Store{}

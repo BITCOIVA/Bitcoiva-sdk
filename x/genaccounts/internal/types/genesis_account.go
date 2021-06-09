@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	authexported "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/exported"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply"
-	supplyexported "github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/exported"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	authexported "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply"
+	supplyexported "github.com/BITCOIVA/Bitcoiva-sdk/x/supply/exported"
 )
 
 // GenesisAccount is a struct for account initialization used exclusively during genesis

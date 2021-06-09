@@ -9,11 +9,11 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil/types"
 )
 
 const flagGenTxDir = "gentx-dir"

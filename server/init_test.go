@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
 )
 
 func TestGenerateCoinKey(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 
 	cmn "github.com/tendermint/tendermint/libs/common"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/keyerror"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/keyerror"
 )
 
 const (

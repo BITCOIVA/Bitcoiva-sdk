@@ -8,12 +8,12 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/module"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/mint/client/cli"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/mint/client/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/module"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/mint/client/cli"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/mint/client/rest"
 )
 
 var (

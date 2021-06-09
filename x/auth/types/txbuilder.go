@@ -7,10 +7,10 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/keys"
-	crkeys "github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/keys"
+	crkeys "github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // TxBuilder implements a transaction context created in SDK modules.

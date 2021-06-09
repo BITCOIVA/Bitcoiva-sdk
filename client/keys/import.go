@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"io/ioutil"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/input"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/input"
 	"github.com/spf13/cobra"
 )
 

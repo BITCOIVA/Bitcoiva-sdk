@@ -11,14 +11,14 @@ import (
 	cfg "github.com/tendermint/tendermint/config"
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/module"
-	authtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/client/cli"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/client/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/module"
+	authtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/client/cli"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/client/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 var (

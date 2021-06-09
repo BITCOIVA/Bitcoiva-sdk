@@ -3,7 +3,7 @@ package cli
 import (
 	flag "github.com/spf13/pflag"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 // nolint

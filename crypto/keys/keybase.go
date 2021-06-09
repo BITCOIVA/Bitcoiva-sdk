@@ -9,11 +9,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/hd"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/keyerror"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/mintkey"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/hd"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/keyerror"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/mintkey"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types"
 
 	bip39 "github.com/cosmos/go-bip39"
 

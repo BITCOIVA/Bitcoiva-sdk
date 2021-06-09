@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/exported"
 )
 
 // initialize starting info for a new delegation

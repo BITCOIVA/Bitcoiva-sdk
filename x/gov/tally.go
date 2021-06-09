@@ -1,9 +1,9 @@
 package gov
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/exported"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/exported"
 )
 
 // validatorGovInfo used for tallying

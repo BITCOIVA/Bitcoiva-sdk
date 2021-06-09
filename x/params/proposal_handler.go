@@ -3,8 +3,8 @@ package params
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	govtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	govtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
 )
 
 func NewParamChangeProposalHandler(k Keeper) govtypes.Handler {

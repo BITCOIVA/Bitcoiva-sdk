@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/input"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/input"
 )
 
 func updateKeyCommand() *cobra.Command {

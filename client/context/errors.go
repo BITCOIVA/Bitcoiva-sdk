@@ -3,7 +3,7 @@ package context
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // ErrInvalidAccount returns a standardized error reflecting that a given

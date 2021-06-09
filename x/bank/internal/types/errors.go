@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // Bank errors reserve 100 ~ 199.

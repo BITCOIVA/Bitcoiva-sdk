@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	stakingtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	stakingtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 // ModuleCdc defines a generic sealed codec to be used throughout this module

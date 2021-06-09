@@ -3,10 +3,10 @@ package distribution
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/keeper"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/types"
-	govtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/keeper"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/types"
+	govtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
 )
 
 func NewHandler(k keeper.Keeper) sdk.Handler {

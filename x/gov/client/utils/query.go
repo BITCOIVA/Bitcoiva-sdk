@@ -3,10 +3,10 @@ package utils
 import (
 	"fmt"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/client/utils"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
 )
 
 const (

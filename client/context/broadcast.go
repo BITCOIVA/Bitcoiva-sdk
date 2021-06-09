@@ -3,8 +3,8 @@ package context
 import (
 	"fmt"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // BroadcastTx broadcasts a transactions either synchronously or asynchronously

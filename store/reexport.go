@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
-	stypes "github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
+	stypes "github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 // Import cosmos-sdk/types/store.go for convenience.

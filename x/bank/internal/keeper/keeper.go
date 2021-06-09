@@ -6,10 +6,10 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/exported"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
 )
 
 var _ Keeper = (*BaseKeeper)(nil)

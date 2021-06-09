@@ -1,8 +1,8 @@
 package rootmulti
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/dbadapter"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/store/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/dbadapter"
+	"github.com/BITCOIVA/Bitcoiva-sdk/store/types"
 )
 
 var commithash = []byte("FAKE_HASH")

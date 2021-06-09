@@ -65,7 +65,7 @@ distclean:
 ### Documentation
 
 godocs:
-	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/BITCOIVA/Bitcoiva-sdk/types"
 	godoc -http=:6060
 
 ########################################
@@ -74,10 +74,10 @@ godocs:
 test: test_unit
 
 test_ledger_mock:
-	@go test -mod=readonly `go list github.com/osiz-blockchainapp/bitcoiva-sdk/crypto` -tags='cgo ledger test_ledger_mock'
+	@go test -mod=readonly `go list github.com/BITCOIVA/Bitcoiva-sdk/crypto` -tags='cgo ledger test_ledger_mock'
 
 test_ledger: test_ledger_mock
-	@go test -mod=readonly -v `go list github.com/osiz-blockchainapp/bitcoiva-sdk/crypto` -tags='cgo ledger'
+	@go test -mod=readonly -v `go list github.com/BITCOIVA/Bitcoiva-sdk/crypto` -tags='cgo ledger'
 
 test_unit:
 	@VERSION=$(VERSION) go test -mod=readonly $(PACKAGES_NOSIMULATION) -tags='ledger test_ledger_mock'
@@ -159,7 +159,7 @@ lint: golangci-lint
 format: tools
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs gofmt -w -s
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs misspell -w
-	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs goimports -w -local github.com/osiz-blockchainapp/bitcoiva-sdk
+	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs goimports -w -local github.com/BITCOIVA/Bitcoiva-sdk
 .PHONY: format
 
 benchmark:
@@ -172,12 +172,12 @@ benchmark:
 DEVDOC_SAVE = docker commit `docker ps -a -n 1 -q` devdoc:local
 
 devdoc_init:
-	docker run -it -v "$(CURDIR):/go/src/github.com/osiz-blockchainapp/bitcoiva-sdk" -w "/go/src/github.com/osiz-blockchainapp/bitcoiva-sdk" tendermint/devdoc echo
+	docker run -it -v "$(CURDIR):/go/src/github.com/BITCOIVA/Bitcoiva-sdk" -w "/go/src/github.com/BITCOIVA/Bitcoiva-sdk" tendermint/devdoc echo
 	# TODO make this safer
 	$(call DEVDOC_SAVE)
 
 devdoc:
-	docker run -it -v "$(CURDIR):/go/src/github.com/osiz-blockchainapp/bitcoiva-sdk" -w "/go/src/github.com/osiz-blockchainapp/bitcoiva-sdk" devdoc:local bash
+	docker run -it -v "$(CURDIR):/go/src/github.com/BITCOIVA/Bitcoiva-sdk" -w "/go/src/github.com/BITCOIVA/Bitcoiva-sdk" devdoc:local bash
 
 devdoc_save:
 	# TODO make this safer

@@ -1,6 +1,6 @@
 package types
 
-import sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+import sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 
 // querier keys
 const (

@@ -7,15 +7,15 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/version"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/client/utils"
-	govutils "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/client/utils"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/version"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/client/utils"
+	govutils "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov/types"
 )
 
 // Proposal flags

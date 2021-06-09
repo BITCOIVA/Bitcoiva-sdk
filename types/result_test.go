@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
 	"github.com/stretchr/testify/require"
 )
 

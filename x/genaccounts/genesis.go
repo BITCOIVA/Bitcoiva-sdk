@@ -1,10 +1,10 @@
 package genaccounts
 
 import (
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authexported "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/exported"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genaccounts/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authexported "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genaccounts/internal/types"
 )
 
 // InitGenesis initializes accounts and deliver genesis transactions

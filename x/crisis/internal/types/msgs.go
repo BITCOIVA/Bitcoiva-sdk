@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 // MsgVerifyInvariant - message struct to verify a particular invariance

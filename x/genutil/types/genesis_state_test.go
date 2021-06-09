@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	authtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/types"
-	stakingtypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	authtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth/types"
+	stakingtypes "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 var (
@@ -20,7 +20,7 @@ var (
 
 func TestNetGenesisState(t *testing.T) {
 	gen := NewGenesisState(nil)
-	assert.NotNil(t, gen.GenTxs) // https://github.com/osiz-blockchainapp/bitcoiva-sdk/issues/5086
+	assert.NotNil(t, gen.GenTxs) // https://github.com/BITCOIVA/Bitcoiva-sdk/issues/5086
 
 	gen = NewGenesisState(
 		[]json.RawMessage{

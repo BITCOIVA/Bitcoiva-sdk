@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/exported"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/internal/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/exported"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/internal/types"
 )
 
 // RegisterInvariants register all supply invariants

@@ -11,8 +11,8 @@ import (
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/hd"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/hd"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 var (

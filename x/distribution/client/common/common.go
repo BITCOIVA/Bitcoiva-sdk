@@ -3,9 +3,9 @@ package common
 import (
 	"fmt"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/types"
 )
 
 // QueryParams actually queries distribution params.

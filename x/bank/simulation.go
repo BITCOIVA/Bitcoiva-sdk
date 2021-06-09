@@ -6,12 +6,12 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/baseapp"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/keeper"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/mock"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/simulation"
+	"github.com/BITCOIVA/Bitcoiva-sdk/baseapp"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/keeper"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/mock"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/simulation"
 )
 
 // SendTx tests and runs a single msg send where both

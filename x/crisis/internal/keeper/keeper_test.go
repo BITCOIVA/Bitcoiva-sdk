@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/crisis/internal/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/params"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/crisis/internal/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/params"
 )
 
 func testPassingInvariant(_ sdk.Context) (string, bool) {

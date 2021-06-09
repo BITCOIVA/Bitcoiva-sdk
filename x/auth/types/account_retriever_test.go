@@ -7,7 +7,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests/mocks"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests/mocks"
 )
 
 var dummyError = errors.New("dummy")

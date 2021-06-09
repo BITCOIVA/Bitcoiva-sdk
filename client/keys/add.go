@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/flags"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/input"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/flags"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/input"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

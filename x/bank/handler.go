@@ -3,9 +3,9 @@ package bank
 import (
 	"fmt"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/keeper"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/bank/internal/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/keeper"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/bank/internal/types"
 )
 
 // NewHandler returns a handler for "bank" type messages.

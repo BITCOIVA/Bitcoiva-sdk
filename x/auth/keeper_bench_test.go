@@ -3,7 +3,7 @@ package auth
 import (
 	"testing"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 func BenchmarkAccountMapperGetAccountFound(b *testing.B) {

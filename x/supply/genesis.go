@@ -1,9 +1,9 @@
 package supply
 
 import (
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	autypes "github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/supply/internal/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	autypes "github.com/BITCOIVA/Bitcoiva-sdk/x/auth"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/supply/internal/types"
 )
 
 // InitGenesis sets supply information for genesis.

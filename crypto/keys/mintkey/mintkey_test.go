@@ -7,8 +7,8 @@ import (
 	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/mintkey"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/mintkey"
 )
 
 func TestArmorUnarmorPrivKey(t *testing.T) {

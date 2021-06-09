@@ -1,4 +1,4 @@
-module github.com/osiz-blockchainapp/bitcoiva-sdk
+module github.com/BITCOIVA/Bitcoiva-sdk
 
 go 1.13
 
@@ -12,12 +12,11 @@ require (
 	github.com/golang/mock v1.3.1-0.20190508161146-9fa652df1129
 	github.com/gorilla/mux v1.7.0
 	github.com/mattn/go-isatty v0.0.6
+	github.com/BITCOIVA/Bitcoiva-sdk v0.0.0-20210607053901-5224bfabd590
 	github.com/pelletier/go-toml v1.2.0
 	github.com/pkg/errors v0.8.1
 	github.com/rakyll/statik v0.1.5
-	github.com/spf13/afero v1.2.1 // indirect
 	github.com/spf13/cobra v0.0.5
-	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.6.1
 	github.com/stretchr/testify v1.4.0

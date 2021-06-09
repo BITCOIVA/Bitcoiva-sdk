@@ -9,9 +9,9 @@ import (
 	tmcrypto "github.com/tendermint/tendermint/crypto"
 	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/crypto/keys/hd"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/tests"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/crypto/keys/hd"
+	"github.com/BITCOIVA/Bitcoiva-sdk/tests"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
 )
 
 func TestLedgerErrorHandling(t *testing.T) {

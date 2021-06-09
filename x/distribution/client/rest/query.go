@@ -6,12 +6,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/client/common"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/client/common"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/types"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
 )
 
 func registerQueryRoutes(cliCtx context.CLIContext, r *mux.Router, queryRoute string) {

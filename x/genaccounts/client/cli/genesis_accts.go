@@ -7,12 +7,12 @@ import (
 	"github.com/spf13/viper"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/keys"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/codec"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/server"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genaccounts"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/genutil"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/keys"
+	"github.com/BITCOIVA/Bitcoiva-sdk/codec"
+	"github.com/BITCOIVA/Bitcoiva-sdk/server"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genaccounts"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/genutil"
 )
 
 const (

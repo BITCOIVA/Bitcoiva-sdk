@@ -5,13 +5,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/client/context"
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/types/rest"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/auth/client/utils"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/distribution/types"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov"
-	govrest "github.com/osiz-blockchainapp/bitcoiva-sdk/x/gov/client/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/client/context"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/types/rest"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/auth/client/utils"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/distribution/types"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/gov"
+	govrest "github.com/BITCOIVA/Bitcoiva-sdk/x/gov/client/rest"
 )
 
 // RegisterRoutes register distribution REST routes.

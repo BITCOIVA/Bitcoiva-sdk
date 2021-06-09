@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/osiz-blockchainapp/bitcoiva-sdk/types"
-	keep "github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/keeper"
-	"github.com/osiz-blockchainapp/bitcoiva-sdk/x/staking/types"
+	sdk "github.com/BITCOIVA/Bitcoiva-sdk/types"
+	keep "github.com/BITCOIVA/Bitcoiva-sdk/x/staking/keeper"
+	"github.com/BITCOIVA/Bitcoiva-sdk/x/staking/types"
 )
 
 func TestInitGenesis(t *testing.T) {
